@@ -1,0 +1,115 @@
+:root{
+    --bg-black-900: #f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50: #e8dfec;
+    /* --text-black-900: #302e4d;
+    --text-black-700: #504e70;
+    --skin-color: #ec1839; */
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+    overflow-y: hidden;
+  }
+  *
+  {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;   
+  }
+
+
+  ::before, ::after{
+    box-sizing: border-box;
+  }
+  
+  
+  .Nav{
+    background-color: white;
+    font-size: 40px;
+  }
+
+  .Nav ul{
+    padding-left: 75%;
+    
+  }
+  
+  
+  .Nav ul li{
+    display:inline;
+    list-style-type: none;
+    padding-left: 20%;
+    
+   
+  }
+  .home-section{
+    /* background: var(--bg-black-900); */
+    min-height: 100vh;
+    display: block;
+   
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    
+    
+    
+  }
+
+
+  .first-par{
+   
+    padding-top: 10%;
+    padding-left: 5%;
+  }
+  .first-par p{
+    /* padding-left: 40%;
+    padding-top: 5%; */
+    width: 65%;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+
+  }
+  .Highlight{
+    font-weight: bold;
+    color: #59a1cf;
+  }
+  .Highlight::before{
+    content: "\a";
+    white-space: pre;
+
+  }
+  .Highlight::after{
+    content: "  ";
+  }
+  .red-Highlight{
+    font-weight: bold;
+    color:crimson;
+  }
+  .reg-highlight{
+    font-weight: bold;
+    color: #59a1cf;
+  }
+  .after-main::before{
+content: "\a";
+white-space: pre;
+
+  }
+  .after-main{
+    font-size: 60px;
+    font-weight: bold;
+    padding-left: 40px;
+  }
+  .Home-page{
+    padding-left: 100px;
+    color: #59a1cf;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  
