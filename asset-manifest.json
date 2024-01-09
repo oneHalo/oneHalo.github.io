@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c5492c3b.css",
+    "main.js": "/static/js/main.8956326f.js",
+    "static/js/787.295f8b1d.chunk.js": "/static/js/787.295f8b1d.chunk.js",
+    "static/media/schedule-gen.png": "/static/media/schedule-gen.549f1a58409c0074f725.png",
+    "static/media/myimage.jpg": "/static/media/myimage.e748c31470487dc1468e.jpg",
+    "static/media/airbnb.png": "/static/media/airbnb.61a300439fb6e009377d.png",
+    "static/media/myimage5.jpg": "/static/media/myimage5.8e32404c9b47cff3956d.jpg",
+    "static/media/BreakTime.png": "/static/media/BreakTime.56388fc118dcb9cb9228.png",
+    "index.html": "/index.html",
+    "main.c5492c3b.css.map": "/static/css/main.c5492c3b.css.map",
+    "main.8956326f.js.map": "/static/js/main.8956326f.js.map",
+    "787.295f8b1d.chunk.js.map": "/static/js/787.295f8b1d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5492c3b.css",
+    "static/js/main.8956326f.js"
+  ]
+}
