@@ -27,13 +27,13 @@ function Home(){
     return(
     <div className="main-bod">
 
-    <body >
+   
         
         
    <div className="main-container">
      
             
-     <div class="main-content">
+     <div className="main-content">
        
        <section className="home-section">
        <div className="Nav">
@@ -166,11 +166,9 @@ function Home(){
       
      </div>
    </div>
-   <div>
    
-   </div>
-   <footer> This page is created and maintained by: Wahid H. Aminullah using Node.js, GitHub and Vercel </footer>
- </body>
+   <footer> This page is created and maintained by: Wahid H. Aminullah using React, GitHub and Vercel </footer>
+ 
 
 
     </div>

@@ -26,8 +26,9 @@ function Contact(){
         </nav>
         </div>
     
-
+         
         <div className="first-par">
+        
         <span className="Home-page">
         <TypeWriter 
                 options={{
@@ -56,9 +57,12 @@ function Contact(){
 
                 
         </p>
-        </div>
-        </section>
        
+        </div>
+
+        
+        </section>
+        <footer> This page is created and maintained by: Wahid H. Aminullah using React, GitHub and Vercel </footer>
         </div>
 
 

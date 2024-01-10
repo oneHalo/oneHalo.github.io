@@ -25,22 +25,22 @@
     
   }
 
-  .html{
+  /* .html{
     height: 100%;
     margin: auto;
     
     width: 960px;
     overflow-y: auto;
-  }
+  } */
   ::before, ::after{
     box-sizing: border-box;
   }
   .main-bod{
     
-    
+     
   }
   .home-section{
-    background: var(--bg-black-900);
+    
     min-height: 98vh;
     display: block;
     position:relative;
@@ -83,6 +83,7 @@
     overflow: auto;
     padding-left: 0;
     height: 97vh;
+    background: var(--bg-black-900);
     
   }
  .name{
@@ -213,6 +214,7 @@
     padding-top: 20px;
     width: 65%;
     padding-left: 50px;
+    background: var(--bg-black-900);
   }
   
   .Project-title{
@@ -252,7 +254,6 @@ size: 40px;
     /* height:90%; */
     width: 25%;
     padding-left: 0%;
-   overflow: auto;
    border-radius: 90%;
    margin-left: 50%;
    overflow: auto;
@@ -264,15 +265,7 @@ size: 40px;
     color: #59a1cf;
     font-size: 40px;
   }
-  .breaktime{
-   
-   height: 300px;
-    width: 300px;
-    background: var(--bg-black-900);
-    mix-blend-mode: multiply;
-   
-    
-  }
+  
   .linebreak::after{
     content: "\a";
     white-space: pre;
@@ -282,17 +275,22 @@ size: 40px;
     font-weight: bold;
     font-size: 40px;
   }
-  .wildlife, .airbnb-img{
-
-height: 300;
-width: 300px;
+  .wildlife, .airbnb-img, .breaktime{
+   
+    height: 300px;
+    width: 300px;
     background: var(--bg-black-900);
     mix-blend-mode: multiply;
+    
   }
+  
   footer{
 
     font-size: 40px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
-    background-color: transparent;
+    background-color: white;
+  }
+  .main-content{
+    background: var(--bg-black-900);
   }
