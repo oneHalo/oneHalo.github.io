@@ -94,9 +94,10 @@ function Home(){
                 <p className="Explanation-paragraph"> As a passionate student of software engineering, I set out on an exciting adventure to advance my 
                 knowledge and investigate the exciting field of movie recommendation systems. I saw the need for a place where a community of film and anime 
                 aficionados could come together to share their cinematic experiences because there was a clear lack of platforms where users could review and rate movies or 
-                TV episodes in a genuine manner. Inspired by this idea, I took the initiative to form a cooperative team with students studying computer science 
-                and software engineering. Collectively, we conceived and realized 'BreakTime' – an event space where people gather to watch movies, TV series, or anime and share their own 
-                viewpoints. BreakTime is evidence of our dedication to creating a lively community that genuinely appreciates film as an art form. 
+                TV episodes in a genuine manner. Inspired by this idea, I took the initiative to form a cooperative <span className="bold"> team</span> with students studying computer science 
+                and software engineering. We came up with BreakTime, an application that <span className="bold"> recommends</span> movies/ tv shows and anime based on what you have watched, liked and preferred, and leave a review
+                so other people of the community will also watch it,<span className="bold"> creating</span> a community of film lovers, and where people can truly share their opinions without thinking it won't make a difference. 
+                The true <span className="bold">purpose </span>of BreakTime is to create a lively community that genuinely appreciates film as an art form. 
                 For a more in-depth exploration of BreakTime, I invite you to visit my GitHub repository: <a className="bold" href="https://github.com/oneHalo/Movie-Recomendation-System">OneHalo</a></p>
                  
         </div>
@@ -106,7 +107,7 @@ function Home(){
        <span className="bold-black"> WildLife Schedule</span> <span className="bold">Generator: </span></p>
         
         <p className="Explanation-paragraph">  I spearheaded a project centered around the creation of a Wildlife Schedule 
-        Generator reflecting my commitment to utilizing technology for impactful solutions. 
+        Generator reflecting my commitment to utilizing technology for impactful solutions and make a difference. 
         Leading a team of four software and electrical engineering students, we chose Java as the programming 
         language to develop a robust system for an organization prioritizing time-sensitive tasks,
          proficiently managing volunteers, and coordinating with veterinarians. 
@@ -128,10 +129,10 @@ function Home(){
             <p className="Explanation-paragraph"> As a software engineering student, I undertook an ambitious venture to create an Airbnb clone, 
             a venture that demonstrated my ability in end-to-end development and my commitment to deliver a polished and complete project on my own. 
             At the heart of the project was a responsive and user-friendly React interface, where I seamlessly integrated dynamic components into property lists, 
-            experience lists, search functions and user reviews, ensuring an engaging and interactive user experience. With a Node.js background, I improved the project
-             and its features by implementing efficient storage and retrieval mechanisms and smooth user authentication. The architectural backbone of the system was a carefully 
+            experience lists, search functions and user reviews, ensuring an engaging and interactive user experience. With a Node.js and MongoDB background, I improved the project
+             and its features by implementing <span className="bold">efficient</span> storage and <span className="bold">retrieval mechanisms</span>. The architectural backbone of the system was a carefully 
              designed relational database that used all SQL capabilities for optimal data management. This project demonstrates my expertise in full development and demonstrates my 
-             ability to transform conceptual ideas into concrete and polished software. If you want to know more details about my AirBnb, please visit my GitHub: <a className="bold" href="https://github.com/oneHalo/AirBnb-Clone"> OneHalo</a></p>
+             ability to transform <span className="bold">conceptual</span> ideas into concrete and polished software. For a more in-depth exploration of my Airbnb clone,  I invite you to visit my GitHub repository: <a className="bold" href="https://github.com/oneHalo/AirBnb-Clone"> OneHalo</a></p>
         </div>
         
        
@@ -168,7 +169,7 @@ function Home(){
    <div>
    
    </div>
-   <footer> This page is created and maintained by: Wahid H. Aminullah using GitHub pages  </footer>
+   <footer> This page is created and maintained by: Wahid H. Aminullah using Node.js, GitHub and Vercel </footer>
  </body>
 
 
