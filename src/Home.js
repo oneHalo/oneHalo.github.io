@@ -118,7 +118,7 @@ function Home(){
         feature was the successful automation of task allocation, a result of our meticulous consideration for staff 
         qualifications, animal care requirements, and resource availability. Our collaboration effectively reduced scheduling conflicts by prioritizing 
         time-sensitive tasks, resulting in heightened operational efficiency and a smoother workflow.
-        o ensure the reliability and robustness of our system, <span className="bold">I took the lead</span> in developing comprehensive test cases for schedule conflicts, resource conflicts, 
+        to ensure the reliability and robustness of our system, <span className="bold">I took the lead</span> in developing comprehensive test cases for schedule conflicts, resource conflicts, 
         and time-sensitive tasks, contributing to a reduction in critical defects and an overall enhancement in software quality. For a more in-depth exploration of WildLife Schedule Generator, 
         I invite you to visit my GitHub repository:<a className="bold" href="https://github.com/oneHalo/WildLife-Rescue-Schedule-Generator-Project"> {""}OneHalo</a></p>
         </div>
