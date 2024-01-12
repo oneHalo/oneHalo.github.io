@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
 import TypeWriter from 'typewriter-effect';
-import {Analytics} from '@vercel/analytics/react';
+// import {Analytics} from '@vercel/analytics/react';
 import './Home.css';
 import Contact from './Contact';
 import image from './myimage.jpg';
@@ -167,7 +167,7 @@ function Home(){
       
      </div>
    </div>
-                <Analytics/>
+                {/* <Analytics/> */}
    <footer> This page is created and maintained by: Wahid H. Aminullah using React, GitHub and Vercel </footer>
  
 
