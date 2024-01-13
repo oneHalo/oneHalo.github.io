@@ -150,7 +150,7 @@ function Home(){
            <span>C, C++, C#, </span>
            <span>Python, </span>
            <span>TypeScript, </span>
-           <span>HTML (markup language....)</span>
+           <span>HTML (markup language)</span>
          </div>
          <div className="skills"> Frameworks and technologies I have worked with: </div> 
           <div className="technology">
