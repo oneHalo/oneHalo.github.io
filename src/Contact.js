@@ -62,7 +62,7 @@ function Contact(){
 
         
         </section>
-        <footer> This page is created and maintained by: Wahid H. Aminullah using React, GitHub and Vercel </footer>
+        <footer> This page is created and maintained by: Wahid H. Aminullah using Node.js, GitHub and Vercel </footer>
         </div>
 
 
