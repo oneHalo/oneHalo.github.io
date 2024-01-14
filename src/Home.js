@@ -58,7 +58,7 @@ function Home(){
            <span class="text second-text">            
            <TypeWriter 
                 options={{
-                    strings: ['Aspiring Software Engineering Student', 'Developer!','Problem Solver!',  'Life Long Learner!', 'Soccer Fan!'],
+                    strings: ['Aspiring Software Engineering Student', 'Developer!','Tenacious Problem Solver!',  'Life Long Learner!', 'Soccer Fan!'],
                     loop:true,
                     autoStart:true,
                     delay: 60,
