@@ -148,7 +148,7 @@ function Home(){
            <span>JavaScript, </span>
            <span>Java, </span>
            <span>C, C++, C#, </span>
-           <span>Scala,</span>
+           <span>Scala, </span>
            <span>Python, </span>
            <span>TypeScript, </span>
            <span>HTML (markup language)</span>
