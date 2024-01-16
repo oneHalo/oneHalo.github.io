@@ -46,7 +46,9 @@ function Home(){
         </ul>
     </nav>
     </div>  
-    
+              <div className="portfolio">
+              <h1>PERSONAL PORTFOLIO</h1>
+            </div>
          <div className="my-name">
             
            <h1 className="name">Hello, my name is  </h1>
@@ -135,7 +137,10 @@ function Home(){
              designed relational database that used all SQL capabilities for optimal data management. This project demonstrates my expertise in full development and demonstrates my 
              ability to transform <span className="bold">conceptual</span> ideas into concrete and polished software. For a more in-depth exploration of my Airbnb clone,  I invite you to visit my GitHub repository: <a className="bold" href="https://github.com/oneHalo/AirBnb-Clone"> OneHalo</a></p>
         </div>
-        
+        <div className="more-proj">
+           <h1>{">>>>"} MORE PROJECTS COMING SOON!</h1>     
+
+        </div>
        
 
 </div> 
