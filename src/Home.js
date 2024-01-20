@@ -153,7 +153,6 @@ function Home(){
            <span>JavaScript, </span>
            <span>Java, </span>
            <span>C, C++, C#, </span>
-           <span>Scala, </span>
            <span>Python, </span>
            <span>TypeScript, </span>
            <span>HTML (markup language)</span>
@@ -163,7 +162,9 @@ function Home(){
            <span>GIT, </span>
            <span>React, </span>
            <span>AWS, </span>
-           <span>Node.js </span>
+           <span>Node.js, </span>
+           <span>MySQL, </span>
+           <span>NoSQL </span>
           </div> 
 
        
