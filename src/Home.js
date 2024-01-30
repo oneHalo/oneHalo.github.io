@@ -157,16 +157,38 @@ function Home(){
            <span>TypeScript, </span>
            <span>HTML (markup language)</span>
          </div>
-         <div className="skills"> Frameworks and technologies I have worked with: </div> 
+         <div className="skills"> Frameworks and Technologies I have worked with: </div> 
           <div className="technology">
            <span>GIT, </span>
            <span>React, </span>
            <span>AWS, </span>
            <span>Node.js, </span>
            <span>MySQL, </span>
-           <span>NoSQL </span>
+           <span>NoSQL, </span>
+           <span>RegEx</span>
+           <span>MongoDB, </span>
+           <span>Unix, </span>
+           <span>Linux, </span>
+           <span>Plotly, </span>
+           <span>Matplotlib, </span>
+           <span>Jupyter Notebook</span>
           </div> 
-
+          <div className="skills"> Courses I have taken before in Engineering: </div>
+          <div className="technology-1">
+           <span>Data Structures and Algorithms, </span>
+           <span>Databases, </span>
+           <span>Discrete Mathematics, </span>
+           <span>Data Science, </span>
+           <span>Linear Algebra, </span>
+           <span>Embedded Systems, </span>
+           <span>Differential Equations, </span>
+           <span>Probability and Statistics, </span>
+           <span>Economics, </span>
+           <span>Software Architecture, </span>
+           <span>Software Testing, Reliability, and Quality, </span>
+           <span>Principles of Operating Systems, </span>
+           <span>Computer Networks</span>
+          </div>
        
 
 

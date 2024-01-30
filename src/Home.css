@@ -239,7 +239,7 @@ size: 40px;
   }
   .technology{
     /* padding-left: 40px; */
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     font-size: 30px;
   }
   .technology span{
@@ -247,7 +247,7 @@ size: 40px;
     font-family: 'Roboto Mono', monospace;
     
   }
-  .skills, .frontend, .technology{
+  .skills, .frontend, .technology, .technology-1{
     padding-left: 50px;
   }
   .myimage{
@@ -309,4 +309,14 @@ size: 40px;
   color: black;
   font-family: 'Roboto Mono', monospace;
 
+  }
+  .technology-1 span{
+    /* padding-left: 10px; */
+    font-family: 'Roboto Mono', monospace;
+    
+  }
+  .technology-1{
+
+    padding-bottom: 50px;
+    font-size: 30px;
   }
