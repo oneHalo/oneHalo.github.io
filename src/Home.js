@@ -185,7 +185,7 @@ function Home(){
            <span>Probability and Statistics, </span>
            <span>Economics, </span>
            <span>Software Architecture, </span>
-           <span>Software Testing, Reliability, and Quality, </span>
+           <span>Software Testing: Reliability and Quality, </span>
            <span>Principles of Operating Systems, </span>
            <span>Computer Networks</span>
           </div>
