@@ -42,7 +42,7 @@ function Home(){
         <ul>
             <li><a>Home</a></li>
            
-            <li><a href="#" onClick={goToContact}>Contact</a></li>
+            <li><a href="#/Contact" onClick={goToContact}>Contact</a></li>
         </ul>
     </nav>
     </div>  

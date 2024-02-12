@@ -18,7 +18,7 @@ function Contact(){
           <div className="Nav">
         <nav >
         <ul>
-            <li><a href="#" onClick={gotoHome} >Home</a></li>
+            <li><a href="#/Home" onClick={gotoHome} >Home</a></li>
            
             <li><a >Contact</a></li>
            
