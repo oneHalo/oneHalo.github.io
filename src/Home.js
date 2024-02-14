@@ -165,7 +165,7 @@ function Home(){
            <span>Node.js, </span>
            <span>MySQL, </span>
            <span>NoSQL, </span>
-           <span>RegEx</span>
+           <span>RegEx, </span>
            <span>MongoDB, </span>
            <span>Unix, </span>
            <span>Linux, </span>
