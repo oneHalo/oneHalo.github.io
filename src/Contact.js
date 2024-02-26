@@ -1,8 +1,9 @@
 import ReactDOM from 'react-dom/client';
 import './Contact.css';
 import TypeWriter from 'typewriter-effect';
-
+import ReactiveButton from 'reactive-button';
 import Home from './Home';
+import { SocialIcon } from 'react-social-icons';
 function Contact(){
 
     function gotoHome(){
@@ -15,16 +16,30 @@ function Contact(){
         <div className="main_container">
          
          <section className="home-section">
-          <div className="Nav">
-        <nav >
+         <div className="Nav">
+       <nav >
         <ul>
-            <li><a href="#/Home" onClick={gotoHome} >Home</a></li>
-           
-            <li><a >Contact</a></li>
-           
+            <li> <ReactiveButton 
+          idleText="Home"
+          size="large"
+          
+          onClick={gotoHome}
+          rounded
+          
+        /></li>
+          
+            <li> <ReactiveButton 
+        idleText="Contact"
+        size="large"
+        color="teal"
+       
+        rounded
+       /></li>
         </ul>
-        </nav>
-        </div>
+       
+       
+    </nav>
+    </div>
     
          
         <div className="first-par">
@@ -51,10 +66,12 @@ function Contact(){
             <span className="Highlight">
                 Email:  
             </span>
-               <a href="mailto:Wahidullah.hojiaminu@ucalgary.ca">Wahidullah.hojiaminu@ucalgary.ca </a> 
-
-            <span className="after-main">Happy Coding!</span>     
-
+               <a className="emial" href="mailto:Wahidullah.hojiaminu@ucalgary.ca">Wahidullah.hojiaminu@ucalgary.ca </a> 
+            <span className="Highlight">   
+               LinkedIn:
+            </span> <span><SocialIcon url="https://www.linkedin.com/in/wahid-h-71210b235" target="_blank" rel="noreferrer" /> </span>
+            <span className="after-main">Happy Coding! </span>     
+                 
                 
         </p>
        

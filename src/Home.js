@@ -9,7 +9,9 @@ import image1 from './myimage5.jpg';
 import breaktime from './BreakTime.png';
 import sched_gen from './schedule-gen.png';
 import airbnb from './airbnb.png';
+// import Button from '@mui/material-next/Button';
 
+import ReactiveButton from 'reactive-button';
 
 function Home(){
 
@@ -40,10 +42,24 @@ function Home(){
        <div className="Nav">
        <nav >
         <ul>
-            <li><a>Home</a></li>
-           
-            <li><a href="#/Contact" onClick={goToContact}>Contact</a></li>
+            <li> <ReactiveButton 
+          idleText="Home"
+          size="large"
+          color="teal"
+          rounded
+        /></li>
+          
+            <li> <ReactiveButton 
+        idleText="Contact"
+        size="large"
+        color="primary"
+        rounded
+       onClick={goToContact}
+       href="#/Contact"
+       /></li>
         </ul>
+       
+       
     </nav>
     </div>  
               <div className="portfolio">
