@@ -265,6 +265,11 @@ size: 40px;
     color: #59a1cf;
     font-size: 40px;
   }
+  .bold-current{
+    font-weight: 900;
+    color: green;
+    font-size: 40px;
+  }
   
   .linebreak::after{
     content: "\a";

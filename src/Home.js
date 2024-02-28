@@ -107,6 +107,25 @@ function Home(){
         </span>
         <div className="Movie-Rec">
         
+        <p className="Air-intro"> 
+       <span className="bold-black"> GAB: General Application Builder (current project..)  </span> </p>
+                <p className="Explanation-paragraph"> In my current passion project, GAB (General Application Builder), 
+                I'm pouring my heart into creating a sanctuary of web development, driven by a personal cause: many of my 
+                friends are struggling to create their own online spaces. Witnessing their challenges, I felt a deep calling to
+                 democratize the web-building process, making it accessible and intuitive for everyone. This journey is deeply personal,
+                  weaving together the rich languages of Python, PyTorch, and TensorFlow, because I've seen the need for a tool that learns 
+                  and grows with its users, offering tailor-made recommendations for small businesses, creators, and developers alike.
+
+                As I craft GAB, integrating responsive elements with React.js and ensuring seamless operation through Node.js and Express.js, 
+                I'm not just building an application; 
+                I'm nurturing a space where dreams and digital landscapes converge. This project is fueled 
+                by the desire to empower my friends and a community of small business owners, creators, and fellow developers and engineers to create something beautiful and uniquely theirs. 
+                GAB is more than a tool—it's a bridge to expressing creativity, a canvas for innovation, and a reflection of the collective spirit that drives 
+                us to share our individual stories with the world. For more info: <a className="bold" href="https://github.com//Movie-Recomendation-System">OneHalo</a></p>
+                 
+        </div>
+        <div className="Movie-Rec">
+        
         <p className="Air-intro"> <span className="linebreak"><img className="breaktime" src={breaktime} onClick={goToBreakTime}/></span> 
        <span className="bold-black"> Recommending Movies Using Content Based Approach: <span className="bold"> BreakTime</span></span></p>
 
