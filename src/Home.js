@@ -109,12 +109,14 @@ function Home(){
         
         <p className="Air-intro"> 
        <span className="bold-black"> GAB: General Application Builder (current project..)  </span> </p>
-                <p className="Explanation-paragraph"> In my current passion project, GAB (General Application Builder), 
-                I'm pouring my heart into creating a sanctuary of web development, driven by a personal cause: many of my 
-                friends are struggling to create their own online spaces. Witnessing their challenges, I felt a deep calling to
+                <p className="Explanation-paragraph"> In my current project, GAB (General Application Builder), 
+                I'm working on creating a sanctuary of web development, driven by a personal cause: many of my 
+                friends and family members (who are also small businesss owners or want to start thier own online business) are struggling to create their own online spaces. 
+                Witnessing their challenges, I felt a deep calling to
                  democratize the web-building process, making it accessible and intuitive for everyone. This journey is deeply personal,
-                  weaving together the rich languages of Python, PyTorch, and TensorFlow, because I've seen the need for a tool that learns 
-                  and grows with its users, offering tailor-made recommendations for small businesses, creators, and developers alike.
+                  using dynamic programming languages such as Python, JavaScript, and Java and Machine Learning libraries such as PyTorch, and TensorFlow, I 
+                  intend to create something that makes a difference, something that grows and learns with from its users through reinforced and supervised machine learning algorithms, offering 
+                  tailor-made recommendations for small businesses, creators, developers and engineerss alike. 
 
                 As I craft GAB, integrating responsive elements with React.js and ensuring seamless operation through Node.js and Express.js, 
                 I'm not just building an application; 

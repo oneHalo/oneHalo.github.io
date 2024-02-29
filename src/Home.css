@@ -83,8 +83,8 @@
     overflow: auto;
     padding-left: 0;
     height: 96.7vh;
-    background: var(--bg-black-900);
-    
+    /* background: var(--bg-black-900); */
+    background: white;
   }
  .name{
     font-size: 50px;
