@@ -131,7 +131,7 @@ function Home(){
                 I'm nurturing a space where dreams and digital landscapes converge. This project is fueled 
                 by the desire to empower my friends and a community of small business owners, creators, and fellow developers and engineers to create something beautiful and uniquely theirs. 
                 GAB is more than a tool—it's a bridge to expressing creativity, a canvas for innovation, and a reflection of the collective spirit that drives 
-                us to share our individual stories with the world. For more info: <a className="bold" href="">OneHalo</a></p>
+                us to share our individual stories with the world. For more info: <a className="bold" href="https://github.com/oneHalo/gpt-personal-application-builder">OneHalo</a></p>
             
         </div>
         <div className="Movie-Rec">
