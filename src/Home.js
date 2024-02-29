@@ -113,17 +113,16 @@ function Home(){
                 I'm working on creating a sanctuary of web development, driven by a personal cause: many of my 
                 friends and family members (who are also small businesss owners or want to start thier own online business) are struggling to create their own online spaces. 
                 Witnessing their challenges, I felt a deep calling to
-                 democratize the web-building process, making it accessible and intuitive for everyone. This journey is deeply personal,
-                  using dynamic programming languages such as Python, JavaScript, and Java and Machine Learning libraries such as PyTorch, and TensorFlow, I 
-                  intend to create something that makes a difference, something that grows and learns with from its users through reinforced and supervised machine learning algorithms, offering 
-                  tailor-made recommendations for small businesses, creators, developers and engineerss alike. 
-
+                democratize the web-building process, making it accessible and intuitive for everyone. This journey is deeply personal,
+                using dynamic programming languages such as Python, JavaScript, and Machine Learning libraries such as PyTorch, and TensorFlow, I 
+                intend to create something that makes a difference, something that creates, grows, recommends and learns with from its users through various natural language models while also using reinforced and supervised machine learning, 
+                offering tailor-made recommendations for small businesses, creators, developers and engineerss alike. 
                 As I craft GAB, integrating responsive elements with React.js and ensuring seamless operation through Node.js and Express.js, 
                 I'm not just building an application; 
                 I'm nurturing a space where dreams and digital landscapes converge. This project is fueled 
                 by the desire to empower my friends and a community of small business owners, creators, and fellow developers and engineers to create something beautiful and uniquely theirs. 
                 GAB is more than a tool—it's a bridge to expressing creativity, a canvas for innovation, and a reflection of the collective spirit that drives 
-                us to share our individual stories with the world. For more info: <a className="bold" href="https://github.com//Movie-Recomendation-System">OneHalo</a></p>
+                us to share our individual stories with the world. For more info: <a className="bold" href="">OneHalo</a></p>
                  
         </div>
         <div className="Movie-Rec">
