@@ -107,8 +107,17 @@ function Home(){
         </span>
         <div className="Movie-Rec">
         
-        <p className="Air-intro"> 
-       <span className="bold-black"> GAB: General Application Builder (current project..)  </span> </p>
+        <p className="GAB-intro"> 
+       <span className="bold-black"> GAB: General Application Builder </span> <div className="current"><TypeWriter 
+                options={{
+                    strings: ['>> Currently Working On This...'],
+                    loop:true,
+                    autoStart:true,
+                    delay: 60,
+                    deleteSpeed: 10
+                }}
+           /></div>     </p>
+          
                 <p className="Explanation-paragraph"> In my current project, GAB (General Application Builder), 
                 I'm working on creating a sanctuary of web development, driven by a personal cause: many of my 
                 friends and family members (who are also small businesss owners or want to start thier own online business) are struggling to create their own online spaces. 
@@ -123,7 +132,7 @@ function Home(){
                 by the desire to empower my friends and a community of small business owners, creators, and fellow developers and engineers to create something beautiful and uniquely theirs. 
                 GAB is more than a tool—it's a bridge to expressing creativity, a canvas for innovation, and a reflection of the collective spirit that drives 
                 us to share our individual stories with the world. For more info: <a className="bold" href="">OneHalo</a></p>
-                 
+            
         </div>
         <div className="Movie-Rec">
         

@@ -62,7 +62,7 @@ function Contact(){
             a 3rd year<span className="reg-highlight"> Software Engineering</span> student.
 
             For additional details or to initiate contact regarding potential 
-            collaborations, kindly reach out to me at the following address:
+            collaborations or opportunity, kindly reach out to me at the following address:
             <span className="Highlight">
                 Email:  
             </span>
