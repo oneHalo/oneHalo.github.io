@@ -107,8 +107,8 @@ function Home(){
         </span>
         <div className="Movie-Rec">
         
-        <p className="GAB-intro"> 
-       <span className="bold-black"> GAB: General Application Builder </span> <div className="current"><TypeWriter 
+        <p className="AutoArchitect AI-intro"> 
+       <span className="bold-black"> AutoArchitect AI: General Application Builder </span> <div className="current"><TypeWriter 
                 options={{
                     strings: ['>> Currently Working On This...'],
                     loop:true,
@@ -118,7 +118,7 @@ function Home(){
                 }}
            /></div>     </p>
           
-                <p className="Explanation-paragraph"> In my current project, GAB (General Application Builder), 
+                <p className="Explanation-paragraph"> In my current project, AutoArchitect AI, 
                 I'm working on creating a sanctuary of web development, driven by a personal cause: many of my 
                 friends and family members (who are also small businesss owners or want to start thier own online business) are struggling to create their own online spaces. 
                 Witnessing their challenges, I felt a deep calling to
@@ -126,13 +126,12 @@ function Home(){
                 using dynamic programming languages such as Python, JavaScript, and Machine Learning libraries such as PyTorch, and TensorFlow, I 
                 intend to create something that makes a difference, something that creates, grows, recommends and learns with from its users through various natural language models while also using reinforced and supervised machine learning, 
                 offering tailor-made recommendations for small businesses, creators, developers and engineerss alike. 
-                As I craft GAB, integrating responsive elements with React.js and ensuring seamless operation through Node.js and Express.js, 
+                As I craft AutoArchitect AI, integrating responsive elements with React.js and ensuring seamless operation through Node.js and Express.js, 
                 I'm not just building an application; 
                 I'm nurturing a space where dreams and digital landscapes converge. This project is fueled 
                 by the desire to empower my friends and a community of small business owners, creators, and fellow developers and engineers to create something beautiful and uniquely theirs. 
-                GAB is more than a tool—it's a bridge to expressing creativity, a canvas for innovation, and a reflection of the collective spirit that drives 
-                us to share our individual stories with the world. For more info: <a className="bold" href="https://github.com/oneHalo/GAB">OneHalo</a></p>
-            
+                AutoArchitect AI is more than a tool—it's a bridge to expressing creativity, a canvas for innovation, and a reflection of the collective spirit that drives 
+                us to share our individual stories with the world. For more info: <a className="bold" href="https://github.com/oneHalo/AutoArchitect AI">OneHalo</a></p>
         </div>
         <div className="Movie-Rec">
         
