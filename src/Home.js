@@ -105,15 +105,7 @@ function Home(){
     <div className="Movie-Rec">
     
     <p className="AutoArchitect AI-intro"> 
-    <span className="bold-black"> AutoArchitect AI: General Application Builder </span> <div className="current"><TypeWriter 
-            options={{
-                strings: ['>> Currently Working On This...'],
-                loop:true,
-                autoStart:true,
-                delay: 60,
-                deleteSpeed: 10
-            }}
-        /></div>     </p>
+    <span className="bold-black"> AutoArchitect AI: General Application Builder using a LLM <span className="current">(Current Project)</span></span>    </p>
       
             <p className="Explanation-paragraph"> In my current project, AutoArchitect AI, 
             I'm working on creating a sanctuary of web development, driven by a personal cause: many of my 
