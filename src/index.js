@@ -5,11 +5,11 @@ import App from './App';
 import Home from "./Home";
 import reportWebVitals from './reportWebVitals';
 import Contact from './Contact';
-
+import NewHome from './NewHome';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
-    <Home />
+    <NewHome />
   </div>
 );
 
