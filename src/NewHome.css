@@ -81,12 +81,12 @@ html, body{
     flex-direction: column; /* Stack child elements vertically */
   }
   
-  .service h2 {
+  .service h2, .study-text h2 {
     color: #333;
     font-size: 1.2rem;
   }
   
-  .service p {
+  .service p, .study-text p {
     color: #666;
     font-size: 0.9rem;
   }
@@ -104,56 +104,92 @@ html, body{
     max-height: 15%; /* Adjust based on your preference */
     margin: 0; /* Resets any default margin */
   }
-  .courses{
-    background:#fff7f6;
-    text-align: start;
-    padding: 3% 10% 5% 4%;
-  }
-  .courses h2{
-    color: black;
-    
-  }
-  .skil{
-
-  }
   
-  
-  .skil{
-    font-family: Montserrat, sans-serif;
-    color: #666666;
-    
-  }
-  .first-skill {
-    display: flex;
-    align-items: center; /* Ensures vertical center alignment */
-    justify-content: center; /* Adjust based on layout preference */
-    gap: 20px; /* Adds space between the image and the text */
-  }
-  
-  .first-skill img.comp-logo {
-    width: auto; /* Maintains aspect ratio */
-    max-height: 300px; /* Adjust based on your preference for 'large' */
-    flex-shrink: 0; /* Prevents the image from shrinking */
-  }
-  /* Styles for the text to ensure it aligns well with the large image */
-  .text-content {
+  .skills-study {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: left;
-    flex-grow: 1; /* Allows the text container to grow as needed */
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px; /* Space between rows */
+    padding: 0;
   }
-  @media (max-width: 768px) {
-    .first-skill {
-      flex-direction: column;
-      align-items: center;
-    }
+  .skills-study img{
+    transform: scale(0.5);
+    margin: -10% -10% -10% -1000%;
+  }
   
-    .first-skill img.comp-logo {
-      max-width: 90%; /* Allows the image to be responsive and adjust to screen size */
-      max-height: auto;
-    }
+  .study-row {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* or 'space-between' depending on your layout needs */
+    width: 100%;
+    padding: 20px; /* Increased padding */
+    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+    margin: 5px 0; /* Adds some space between rows */
+    background-color: #fff7f6;
+    
   }
+  
+ .study-text p{
+    color:#000;
+
+ }
+  .study-text {
+    width: 100%;
+    text-align: left;
+    padding: 20px; /* Increased padding for more space around the text */
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+    .study-row {
+      flex-direction: column;
+    }
+}
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Start hidden off-screen */
+    width: 300px; /* Adjust as needed */
+    height: 100%;
+    background-color: #fff;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    transition: right 0.5s ease; /* Smooth transition for sliding in/out */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  
+  .sidebar.open {
+    right: 0; /* Slide in */
+  }
+  .sidebar .contact-info > *:first-child {
+    margin-top: 20px; /* Adjust this value to bring the text down */
+  }
+  .after-main {
+    text-align: center; /* Center "Happy Coding" text */
+    width: 100%;
+    padding: 20px 0; /* Add some padding around the text */
+    box-sizing: border-box;
+    margin-top: auto; /* This will ensure it sticks to the bottom */
+  }
+  .close-button {
+    padding: 10px 20px;
+    background-color: #ee6043; /* Or any other color you prefer */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: auto; /* Position the button at the bottom of the sidebar */
+    border-radius: 10%;
+  }
+  footer{
+    font-size: smaller;
+    font-weight: bolder;
+  }
+   
   
  
   

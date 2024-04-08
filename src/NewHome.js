@@ -1,13 +1,24 @@
-import React from 'react';
+import React , {useState}from 'react';
+import ReactDOM from 'react-dom';
 import './NewHome.css';
 import scheduleimg from "./schedule-gen.png";
 import breaktime from "./BreakTime.png";
 import allSkii from  "./Allskii.png";
 import wahidLogo from "./Wahid-logo.png";
 import compLogo from "./comp-logo.png";
-
+import study from "./studying.png";
+import ContactInfo from './ContactInfo';
+import Contact from './Contact';
 function NewHome() {
-  return (
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+    const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
+    
+    function goGit(){
+
+    }
+
+    return (
     <div className="App">
       <header className="App-header">
         <img src={wahidLogo} className="App-logo" alt="logo" />
@@ -15,7 +26,8 @@ function NewHome() {
           {/* <a href="/services">Services</a>
           <a href="/about">About</a> */}
           {/* <a href="/contact">Contact</a> */}
-          <button className="talk-button">CONTACT</button>
+          <button className="talk-button" onClick={toggleSidebar} >CONTACT</button>
+          
         </nav>
       </header>
       <main className="App-main">
@@ -31,7 +43,7 @@ function NewHome() {
         <img src={breaktime} className="schedule" alt="img" />
 
         </div>
-        <button className="learn-more-button">LEARN MORE</button>
+        <button className="learn-more-button" onClick={() => window.open('https://github.com/Platty114/allSkii')}>LEARN MORE</button>
       </main>
       <section className="App-services">
         
@@ -45,7 +57,7 @@ function NewHome() {
         </div>
         <div className="service">
           <h2>AllSkii</h2>
-          <p></p>
+          <p>As part of a 7-member team, I played a key role in the development of AllSkii, a platform designed to simplify the skiing experience in Canada. My contributions included crafting the front-end interface and integrating backend services for user authorization, aiming to provide skiers with essential, up-to-date condition reports on Alberta's major ski hills.</p>
         </div>
         <div className="service">
           <h2>Schedule Generator</h2>
@@ -65,27 +77,44 @@ function NewHome() {
             talking about their favorite movies and shows.</p>
         </div>
       </section>
-      <section className='courses'>
-      <div className="skil">
-       <div className='first-skill'>
-        <h2>My Skills:</h2>
-         
-        <span>{"⦾"} JavaScript, </span>
+      <section className='skills-study'>
+      <div className="study-row">
+        <div className="study-text">
+        <h2>Programming Languages</h2>
+        <p><span>JavaScript, </span>
         <span>Java, </span>
         <span>C, C++, C#, </span>
         <span>Python, </span>
         <span>TypeScript, </span>
-        <span>HTML (markup language)</span>
-         <img src={compLogo} className='comp-logo'></img> 
-     </div>
+        <span>HTML (markup language)</span></p>
         </div>
-        {/* <div className="tech-logos">
-            <img src={javaLogo} alt="Java" className="tech-logo" />
-            <img src={gitLogo} alt="Git" className="tech-logo" />
-            <img src={awsLogo} alt="AWS" className="tech-logo" />
-            <img src={linuxLogo} alt="Linux" className="tech-logo" />
-        </div> */}
+       
+    </div>
+    <div className="study-row">
+        <div className="study-text">
+        <h2>Tech and Frameworks that I am skilled in</h2>
+        <p><span>GIT, </span>
+        <span>React, </span>
+        <span>AWS, </span>
+        <span>Node.js, </span>
+        <span>MySQL, </span>
+        <span>NoSQL, </span>
+        <span>RegEx, </span>
+        <span>MongoDB, </span>
+        <span>Unix, </span>
+        <span>Linux, </span>
+        <span>Plotly, </span>
+        <span>Matplotlib, </span>
+        <span>Jupyter Notebook</span></p>
+        </div>
+        
+    </div>
       </section>
+      <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
+        <ContactInfo />
+        <button className="close-button" onClick={toggleSidebar}>Close</button>
+      </div>
+      <footer>This page is created and maintained by: Wahid H. Aminullah using Node.js, GitHub and Vercel </footer>
     </div>
   );
 }
