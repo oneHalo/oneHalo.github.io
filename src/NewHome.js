@@ -1,6 +1,7 @@
 import React , {useState}from 'react';
 import ReactDOM from 'react-dom';
 import './NewHome.css';
+import {Analytics} from '@vercel/analytics/react';
 import scheduleimg from "./schedule-gen.png";
 import breaktime from "./BreakTime.png";
 import allSkii from  "./Allskii.png";
@@ -115,6 +116,7 @@ function NewHome() {
         <button className="close-button" onClick={toggleSidebar}>Close</button>
       </div>
       <footer>This page is created and maintained by: Wahid H. Aminullah using Node.js, GitHub and Vercel </footer>
+            <Analytics/>
     </div>
   );
 }
