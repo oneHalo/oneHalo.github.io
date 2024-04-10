@@ -44,7 +44,7 @@ function NewHome() {
         <img src={breaktime} className="schedule" alt="img" />
 
         </div>
-        <button className="learn-more-button" onClick={() => window.open('https://github.com/Platty114/allSkii')}>LEARN MORE</button>
+        <button className="learn-more-button" onClick={() => window.open('https://github.com/oneHalo')}>LEARN MORE</button>
       </main>
       <section className="App-services">
         
