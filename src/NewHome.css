@@ -19,6 +19,9 @@ html, body{
     margin: 0;
     
   }
+  .App-logo:hover{
+    cursor: pointer;
+  }
   
   
   .App-header .header-text h1 {
