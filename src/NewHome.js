@@ -81,7 +81,7 @@ function NewHome() {
       <section className='skills-study'>
       <div className="study-row">
         <div className="study-text">
-        <h2>Programming Languages</h2>
+        <h2>I'm fluent in:</h2>
         <p><span>JavaScript, </span>
         <span>Java, </span>
         <span>C, C++, C#, </span>
@@ -93,7 +93,7 @@ function NewHome() {
     </div>
     <div className="study-row">
         <div className="study-text">
-        <h2>Tech and Frameworks that I am skilled in</h2>
+        <h2>I am experienced in: </h2>
         <p><span>GIT, </span>
         <span>React, </span>
         <span>AWS, </span>
@@ -106,7 +106,11 @@ function NewHome() {
         <span>Linux, </span>
         <span>Plotly, </span>
         <span>Matplotlib, </span>
-        <span>Jupyter Notebook</span></p>
+        <span>Jupyter Notebook, </span>
+        <span>PIT (Testing), </span>
+        <span>Selenium (Testing) </span>
+
+        </p>
         </div>
         
     </div>
