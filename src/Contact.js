@@ -69,7 +69,7 @@ function Contact(){
                <a className="emial" href="mailto:Wahidullah.hojiaminu@ucalgary.ca">Wahidullah.hojiaminu@ucalgary.ca </a> 
             <span className="Highlight">   
                LinkedIn:
-            </span> <span><SocialIcon url="https://www.linkedin.com/in/wahid-h-71210b235" target="_blank" rel="noreferrer" /> </span>
+            </span> <span><SocialIcon url="https://www.linkedin.com/in/wahid-hoji" target="_blank" rel="noreferrer" /> </span>
             <span className="after-main">Happy Coding! </span>     
                  
                 
