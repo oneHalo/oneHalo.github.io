@@ -22,7 +22,7 @@ function NewHome() {
     return (
     <div className="App">
       <header className="App-header">
-        <img src={wahidLogo} className="App-logo" alt="logo" onClick={() => window.open('https://www.linkedin.com/in/wahid-hojii')}/>
+        <img src={wahidLogo} className="App-logo" alt="logo" onClick={() => window.open('https://www.linkedin.com/in/wahid-hoji')}/>
         <nav>
           {/* <a href="/services">Services</a>
           <a href="/about">About</a> */}
