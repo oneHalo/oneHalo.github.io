@@ -108,9 +108,8 @@ function NewHome() {
         <span>Matplotlib, </span>
         <span>Jupyter Notebook, </span>
         <span>PIT (Testing), </span>
-        <span>Selenium (Testing) </span>
+        <span>Selenium (Testing), </span>
         <span >PyTorch</span>
-
         </p>
         </div>
         
