@@ -32,7 +32,7 @@ function NewHome() {
         </nav>
       </header>
       <main className="App-main">
-        <h1>Wahid Hoji Aminullah {"- - > "}Personal Portfolio</h1>
+        <h1>Wahid Hoji Aminullah {" -> "}Personal Portfolio</h1>
         <p>I am a passionate software engineering student, committed 
             to delivering impactful solutions. My online portfolio 
             features my projects, skills, and academic accomplishments. 
@@ -109,7 +109,7 @@ function NewHome() {
         <span>Jupyter Notebook, </span>
         <span>PIT (Testing), </span>
         <span>Selenium (Testing), </span>
-        <span >PyTorch</span>
+        <span>PyTorch</span>
         </p>
         </div>
         
