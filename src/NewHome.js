@@ -109,7 +109,7 @@ function NewHome() {
         <div className="service">
           <h2>BreakTime</h2>
           <p>
-            I'm studying software engineering and noticed there weren't good places for movie and anime fans to talk
+            I noticed there weren't good places for movie and anime fans to talk
             about what they love. So, I started BreakTime with some friends from school. It's an app that suggests
             movies and shows you might like based on your tastes and lets you leave reviews. Our goal is to build a fun
             community where fans can really get into talking about their favorite movies and shows.

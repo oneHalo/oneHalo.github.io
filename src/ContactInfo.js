@@ -6,7 +6,7 @@ function ContactInfo() {
   return (
     <div className="contact-info">
       <p>I currently attend
-        <span className="Highlight"> Schulich School of Engineering </span>at the <span className="red-Highlight">University of Calgary</span>, as a 3rd year<span className="reg-highlight"> Software Engineering</span> student.
+        <span className="Highlight"> Schulich School of Engineering </span>at the <span className="red-Highlight">University of Calgary</span>, as a 4th year<span className="reg-highlight"> Software Engineering</span> student.
       </p>
       <p>
         For additional details or to initiate contact regarding potential collaborations or opportunities, kindly reach out to me at the following address:
