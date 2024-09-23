@@ -77,12 +77,15 @@ function NewHome() {
       </main>
       <section className="App-services">
         <div className="service">
-          <h2> AutoArchitect AI: General Application Builder using a LLM (Current Project)</h2>
-          <p>
-            AutoArchitect AI is my project aimed at simplifying web development for small business owners and
-            creators, using advanced technologies to offer personalized, evolving web solutions. This initiative
-            not only democratizes web building but also fosters a platform for creativity and shared stories,
-            reflecting a collective spirit of innovation.
+          <h2> CapStone: Notes.AI (Current Project)</h2>
+          <p>Notes.AI harnesses cutting-edge artificial intelligence to simplify learning by transforming complex lecture material, 
+            textbooks, and notes into easy-to-understand, interactive summaries. The platform doesn’t stop at summarization – it also empowers 
+            students by generating personalized study schedules tailored to their unique learning styles, deadlines, and time constraints.
+            <br/>
+            By analyzing each student’s study habits, academic requirements, and extracurricular commitments, 
+            Notes.AI creates optimized daily and weekly study plans 
+            designed to boost productivity and enhance information retention. This AI-driven 
+            approach allows students to study smarter, not harder, helping them achieve academic success more efficiently.
           </p>
         </div>
         <div className="service">
@@ -117,6 +120,31 @@ function NewHome() {
         </div>
       </section>
       <section className='skills-study'>
+      <div className="study-row">
+          <div className="study-text">
+            <h2>Special Interests: AI, Machine Learning, and Data Science</h2>
+            <p>
+            I am deeply passionate about leveraging artificial intelligence and 
+            machine learning technologies to solve complex problems. Over the 
+            course of my academic and professional experiences, I have worked 
+            with a variety of state-of-the-art tools, 
+            including <span className='bol'>Hugging Face Transformers</span>,  <span className='bol'>TensorFlow</span>, and <span className='bol'> PyTorch</span>, 
+            allowing me to  <span className='bol'>finetune models</span> for specific applications. 
+            My experience spans across  <span className='bol'>natural language processing (NLP)</span>, 
+            <span className='bol'> predictive analytics</span>, and  <span className='bol'>large-scale data analysis</span>, where I 
+            have improved the performance of  <span className='bol'>machine learning models</span> by enhancing 
+            <span className='bol'> accuracy and optimizing processes</span>.
+            <br/>
+            <br/>
+            I am particularly interested in areas such as  <span className='bol'>reinforcement learning</span>, 
+            <span className='bol'> generative models</span>, and  <span className='bol'>ethical AI</span>, and I am continuously exploring 
+            how AI can be responsibly integrated into real-world applications. 
+            Through hands-on projects such as my final year  <span className='bol'>Capstone Project</span>,  <span className='bol'>LLM finetuning and research</span>, I have honed my ability 
+            to handle  <span className='bol'>large datasets</span> and  <span className='bol'>develop models</span> that are both  <span className='bol'>efficient </span>and  <span className='bol'>scalable</span>.
+            
+            </p>
+          </div>
+        </div>
         <div className="study-row">
           <div className="study-text">
             <h2>I'm fluent in:</h2>
