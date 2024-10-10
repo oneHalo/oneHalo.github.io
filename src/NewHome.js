@@ -77,7 +77,7 @@ function NewHome() {
       </main>
       <section className="App-services">
         <div className="service">
-          <h2> CapStone: Notes.AI (Current Project)</h2>
+          <h2> Entrepreneurial CapStone: Notes.AI (Current Project)</h2>
           <p>Notes.AI harnesses cutting-edge artificial intelligence to simplify learning by transforming complex lecture material, 
             textbooks, and notes into easy-to-understand, interactive summaries. The platform doesn’t stop at summarization – it also empowers 
             students by generating personalized study schedules tailored to their unique learning styles, deadlines, and time constraints.
@@ -133,7 +133,7 @@ function NewHome() {
             My experience spans across  <span className='bol'>natural language processing (NLP)</span>, 
             <span className='bol'> predictive analytics</span>, and  <span className='bol'>large-scale data analysis</span>, where I 
             have improved the performance of  <span className='bol'>machine learning models</span> by enhancing 
-            <span className='bol'> accuracy and optimizing processes</span>.
+            <span className='bol'>accuracy and optimizing processes</span>.
             <br/>
             <br/>
             I am particularly interested in areas such as  <span className='bol'>reinforcement learning</span>, 
