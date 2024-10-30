@@ -133,7 +133,7 @@ function NewHome() {
             My experience spans across  <span className='bol'>natural language processing (NLP)</span>, 
             <span className='bol'> predictive analytics</span>, and  <span className='bol'>large-scale data analysis</span>, where I 
             have improved the performance of  <span className='bol'>machine learning models</span> by enhancing 
-            <span className='bol'>accuracy and optimizing processes</span>.
+            <span className='bol'> accuracy and optimizing processes</span>.
             <br/>
             <br/>
             I am particularly interested in areas such as  <span className='bol'>reinforcement learning</span>, 
