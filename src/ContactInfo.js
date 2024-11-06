@@ -15,7 +15,7 @@ function ContactInfo() {
         <span className="Highlight"> LinkedIn: </span>
         <span><SocialIcon url="https://www.linkedin.com/in/wahid-h-71210b235" target="_blank" rel="noreferrer" /></span>
       </p>
-      <p className="after-main">Happy Solving Problems!</p>
+      <p className="after-main">Happy Solving!</p>
     </div>
   );
 }
