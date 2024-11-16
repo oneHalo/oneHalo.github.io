@@ -154,6 +154,7 @@ function NewHome() {
               <span>C, C++, C#, </span>
               <span>Python, </span>
               <span>TypeScript, </span>
+              <span>R, </span>
               <span>HTML (markup language)</span>
             </p>
           </div>
@@ -174,10 +175,11 @@ function NewHome() {
               <span>Linux, </span>
               <span>Plotly, </span>
               <span>Matplotlib, </span>
-              <span>Jupyter Notebook, </span>
+              <span>RStudio </span>
               <span>PIT (Testing), </span>
               <span>Selenium (Testing), </span>
               <span>PyTorch </span>
+              <span>TensorFlow </span>
             </p>
           </div>
         </div>
