@@ -198,7 +198,7 @@ function NewHome() {
                       <li>Senior Capstone Project: SwiftNotesAI - Entrepreneurial AI Learning Platform</li>
                       <li>Led multiple team projects with 7+ developers</li>
                       <li>Completed advanced coursework in AI/ML and Data Science</li>
-                      <li>Active member of Computer Science Student Association</li>
+                      <li>Active member of Cyber Security Student Association</li>
                     </ul>
                   </div>
                 </div>
