@@ -1,21 +1,73 @@
-
 import React from 'react';
-import { SocialIcon } from 'react-social-icons'; // Ensure you have react-social-icons installed
+import './ContactInfo.css';
 
 function ContactInfo() {
   return (
     <div className="contact-info">
-      <p>I currently attend
-        <span className="Highlight"> Schulich School of Engineering </span>at the <span className="red-Highlight">University of Calgary</span>, as a 4th year<span className="reg-highlight"> Software Engineering</span> student.
-      </p>
-      <p>
-        For additional details or to initiate contact regarding potential collaborations or opportunities, kindly reach out to me at the following address:
-        <span className="Highlight"> Email: </span>
-        <a className="email" href="mailto:Wahidullah.hojiaminu@ucalgary.ca">Wahidullah.hojiaminu@ucalgary.ca</a>
-        <span className="Highlight"> LinkedIn: </span>
-        <span><SocialIcon url="https://www.linkedin.com/in/wahid-h-71210b235" target="_blank" rel="noreferrer" /></span>
-      </p>
-      <p className="after-main">Happy Solving!</p>
+      <div className="contact-header">
+        <h2>Let's Connect!</h2>
+        <p>Ready to discuss opportunities, collaborations, or just say hello?</p>
+      </div>
+      
+      <div className="contact-details">
+        <div className="contact-item">
+          <div className="contact-icon">📧</div>
+          <div className="contact-content">
+            <h4>Email</h4>
+            <a href="mailto:Wahidullah.hojiaminu@ucalgary.ca">
+              Wahidullah.hojiaminu@ucalgary.ca
+            </a>
+          </div>
+        </div>
+
+        <div className="contact-item">
+          <div className="contact-icon">💼</div>
+          <div className="contact-content">
+            <h4>LinkedIn</h4>
+            <a 
+              href="https://www.linkedin.com/in/wahid-hoji" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              linkedin.com/in/wahid-hoji
+            </a>
+          </div>
+        </div>
+
+        <div className="contact-item">
+          <div className="contact-icon">🔗</div>
+          <div className="contact-content">
+            <h4>GitHub</h4>
+            <a 
+              href="https://github.com/oneHalo" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              github.com/oneHalo
+            </a>
+          </div>
+        </div>
+
+        <div className="contact-item">
+          <div className="contact-icon">🎓</div>
+          <div className="contact-content">
+            <h4>Education</h4>
+            <p>Software Engineering Student<br/>University of Calgary</p>
+          </div>
+        </div>
+
+        <div className="contact-item">
+          <div className="contact-icon">📍</div>
+          <div className="contact-content">
+            <h4>Location</h4>
+            <p>Calgary, Alberta, Canada</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="contact-footer">
+        <p>Looking forward to hearing from you!</p>
+      </div>
     </div>
   );
 }
